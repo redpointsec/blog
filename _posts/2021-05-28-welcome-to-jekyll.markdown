@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Hello World! Welcome to Redpoint!"
 date:   2021-05-28 14:13:25 -0600
 categories: jekyll update
 ---
