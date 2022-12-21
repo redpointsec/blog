@@ -15,7 +15,8 @@ In thinking like developers we create the architecture and frameworks that we us
 
 In that vein, one of our principal consultants, Justin Larson, often says Redpoint's tagline should be "We'll find your IDOR (Insecure Direct Object Reference)." IDORs, like business logic flaws, are a class of vulnerability that affect a lot of modern web applications and they're difficult for automated scanners to detect. For this reason, we send our security reviewers into application codebases to mine for authorization missteps.
 
-![IDOR](/Users/aaronlaw/Documents/GitHub/blog/_site/assets/images/idors-idors-everywhere copy.jpeg)
+![IDOR]({{ site.baseurl }}{{ '/assets/images/idors-idors-everywhere.jpeg' }})
+_How Redpoint Consultants might see your application_
 
 Consequently, code security by coders is where we believe we provide Redpoint clients extraordinary value. It's the primary reason why we often recommend the Hybrid Assessment tool we developed in order to examine our clients' applications in their running environments as well as the source-code undergirding those applications. Overall, it creates a deeper level of security for the applications and systems we analyze.
 
