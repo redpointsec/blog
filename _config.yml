@@ -23,17 +23,16 @@ email: info@redpointsecurity.com
 description: >- # this means to ignore newlines until "baseurl:"
   Code Security By Coders
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://absoluteappsec.com/blog" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://redpointsecurity.com/blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: redpointsec
 # github_username:  sethlaw
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-include-cache
-
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
