@@ -3,6 +3,7 @@ layout: single
 title:  "A Client-Side Solve: Browser Sanitization APIs"
 date:   2021-06-04 13:43:00 -0600
 categories: posts
+permalink: /browser-sanitization-apis/
 ---
 
 ## Why Browser Sanitization APIs could usher in a new era of client-side security?

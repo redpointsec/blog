@@ -3,6 +3,7 @@ layout: single
 title:  "Two Tensions in Privacy and Data"
 date:   2021-06-01 16:29:00 -0600
 categories: posts
+permalink: /privacy-and-data/
 ---
 
 ## Two tensions governing privacy and data today 

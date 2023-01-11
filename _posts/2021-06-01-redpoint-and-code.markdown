@@ -3,6 +3,7 @@ layout: single
 title:  "Redpoint and Code"
 date:   2021-06-01 16:29:00 -0600
 categories: posts
+permalink: /Redpoint-Code-Security-by-Coders/
 ---
 # Why code security by coders?
 ## The secret to comprehensive security is knowing how an attacker thinks and how a developer creates. 

@@ -8,4 +8,7 @@ header:
     caption: a blog covering the intersection of security and development
 classes: wide
 ---
-## Part of the Redpoint Security mission has always been aimed at helping security professionals and developers navigate the wide world of cybersecurity. Our blog points you to a few of those resources and relates our experiences working as both testers and developers. You can join on-going conversations on these topics by adding us to your bookmarks, following us on social media, or checking into Seth's weekly conversations on his [Absolute AppSec podcast](absoluteappsec.com), with live chats on [YouTube](https://www.youtube.com/channel/UCo9CDrIB0rJwG4GGz8CZEaQ).
+# The Redpoint Security mission has always included helping security professionals and developers navigate the infosec world. 
+ <span style="color:red">*Serving that purpose, our blog points you to a few relevant resources as well as lessons learned from our own experiences working in the field.* </span>
+
+ <span style="color:grey">Join on-going conversations on these topics by adding this blog to your bookmarks, following us on social media, & checking into Seth's weekly conversations on his [Absolute AppSec podcast](absoluteappsec.com).</span>

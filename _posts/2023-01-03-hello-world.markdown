@@ -6,6 +6,7 @@ categories: helloworld launch redpointsec
 header: 
     image: assets/images/helloworld.png
     caption: "Code Security - A beginning, but not _the_ beginning"
+permalink: /Welcome-to-Redpoint-Security's-Blog/
 ---
 # Redpoint Security
 
