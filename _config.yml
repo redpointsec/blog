@@ -36,6 +36,18 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/redpointsec"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/redpointsec"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.redpointsecurity.com" 
+
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Exclude from processing.
