@@ -1,0 +1,47 @@
+Seth Law:
+  name        : "Seth Law"
+  bio         : "Seth Law is the Founder and Principal Consultant of Redpoint Security"
+  avatar      : "/assets/images/seth-cartoon-bio.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:seth@rdpt.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/sethlaw"
+
+Justin Larson:
+  name        : "Justin Larson"
+  bio         : "Justin is a Senior Application Security Consultant with Redpoint Security"
+  avatar      : "/assets/images/jl-cartoon-bio.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jl@rdpt.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Phant0mTrav3ler"
+
+Aaron Law:
+  name        : "Aaron Law"
+  bio         : "Aaron Law is a project manager with Redpoint Security"
+  avatar      : "/assets/images/aaron-cartoon-bio.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:aaron@redpointsecurity.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/anlaw23"
+
+Redpoint Security:
+  name        : "Redpoint Security"
+  bio         : "A security consulting firm specializing in application security, developer training, and secure-code reviews"
+  avatar      : "/assets/images/rdpt-logo.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:pentest@redpointsecurity.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/redpointsec"

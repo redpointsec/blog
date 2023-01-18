@@ -3,12 +3,13 @@ layout: single
 title:  "Addressing Ransomware in Organizations and Application Security"
 date:   2021-06-04 13:43:00 -0600
 categories: posts
+permalink: /application-security-responses-to-ransomware/
 ---
 {% include video id="Pv7twtQxB6Y" provider="youtube" %} 
 > *[For an attacker], where there's an absence from technical protection, there's always the presence of human error.*
 *-KEN JOHNSON* 
 
-Ransomware is everywhere! The international news regarding the May 2021 ransomware attack on Colonial Pipeline and the subsequent service shutoff affecting consumers throughout the U.S. southeast put launched ransomware into headlines and general awareness. Seth and Ken reflect on the topic in this episode, and, with contributions from some Absolute AppSec Clack community members, discuss the increasing frequency of ransomware-style attacks. Even when the exploits don't receive headlines with the notoriety of colonial pipeline, it's evident that ransomware is a problem that isn't going away. 
+Ransomware is everywhere! The international news regarding the May 2021 ransomware attack on Colonial Pipeline and the subsequent service shutoff affecting consumers throughout the U.S. southeast put launched ransomware into headlines and general awareness. Seth and Ken reflect on the topic in this episode, and, with contributions from some Absolute AppSec slack community members, discuss the increasing frequency of ransomware-style attacks. Even when the exploits don't receive headlines with the notoriety of colonial pipeline, it's evident that ransomware is a problem that isn't going away. 
 
 In a wide-ranging discussion on the topic, Seth and Ken providing historical overviews of security responses to the ransomware class of attacks as well as some basic security hygiene tips which can help an organization counteract the worst effects of ransomware. 
 

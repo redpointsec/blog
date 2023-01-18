@@ -1,10 +1,14 @@
 ---
 layout: single
 title:  "Redpoint and Code"
-date:   2021-06-01 16:29:00 -0600
+date:   2023-01-01 16:29:00 -0600
 categories: posts
+permalink: /Redpoint-Code-Security-by-Coders/
+classes: wide
+author: Aaron Law
+author_profile: true
 ---
-# Why code security by coders?
+# <span style="color:red"> Why code security by coders? </span>
 ## The secret to comprehensive security is knowing how an attacker thinks and how a developer creates. 
 
 The important thing to remember for finding and helping remedy security flaws, is that it requires assessments where our testers/researchers can toggle between two frames of mind. First, We look at your application like an attacker might, where vulnerabilities emerge from the stories of exploits and the known weaknesses in human security practices and operating systems. And second and often, most importantly, we see your application and organizational system from the point of view of a developer.
@@ -16,8 +20,10 @@ In thinking like developers we create the architecture and frameworks that we us
 In that vein, one of our principal consultants, Justin Larson, often says Redpoint's tagline should be "We'll find your IDOR (Insecure Direct Object Reference)." IDORs, like business logic flaws, are a class of vulnerability that affect a lot of modern web applications and they're difficult for automated scanners to detect. For this reason, we send our security reviewers into application codebases to mine for authorization missteps.
 
 ![IDOR]({{ site.baseurl }}{{ '/assets/images/idors-idors-everywhere.jpeg' }})
+
 _How Redpoint Consultants might see your application_
 
 Consequently, code security by coders is where we believe we provide Redpoint clients extraordinary value. It's the primary reason why we often recommend the Hybrid Assessment tool we developed in order to examine our clients' applications in their running environments as well as the source-code undergirding those applications. Overall, it creates a deeper level of security for the applications and systems we analyze.
 
 If you or your organization is interested in learning more about Redpoint Security and our proprietary testing process, contact us [here for more information](info@redpointsecurity.com).
+
