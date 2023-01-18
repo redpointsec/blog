@@ -7,6 +7,8 @@ header:
     image: assets/images/helloworld.png
     caption: "Code Security - A beginning, but not _the_ beginning"
 permalink: /Welcome-to-Redpoint-Security's-Blog/
+author: Seth Law
+author_profile: true
 ---
 # Redpoint Security
 
