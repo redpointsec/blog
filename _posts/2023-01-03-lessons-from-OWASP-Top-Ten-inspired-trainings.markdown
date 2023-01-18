@@ -3,6 +3,9 @@ layout: single
 title:  "Training Devs for a new OWASP Top Ten (2021)"
 date:   2023-01-03 13:43:00 -0600
 categories: posts
+classes: wide
+author: Aaron Law
+author_profile: true
 ---
 # What we learned from adapting our Application Security 101 course
 
