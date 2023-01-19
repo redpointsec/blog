@@ -41,7 +41,7 @@ Redpoint Security:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:pentest@redpointsecurity.com"
+      url: "mailto:info@redpointsecurity.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/redpointsec"

@@ -56,7 +56,7 @@ footer:
       url: "https://www.redpointsecurity.com" 
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:pentest@redpointsecurity.com"
+      url: "mailto:info@redpointsecurity.com"
 
 # Defaults
 defaults:
