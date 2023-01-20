@@ -36,6 +36,40 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
+author:
+  name     : "Redpoint Security"
+  avatar   : "/assets/images/rdpt-logo.png"
+  bio      : "A security consulting firm specializing in application security, developer training, and secure-code reviews"
+  location : "Utah, USA"
+
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/redpointsec"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/redpointsec"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.redpointsecurity.com" 
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:info@redpointsecurity.com"
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: true
+
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Exclude from processing.

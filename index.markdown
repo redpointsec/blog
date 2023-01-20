@@ -8,6 +8,8 @@ header:
     caption: a blog covering the intersection of security and development
 classes: wide
 title: The Redpoint Security mission has always included helping security professionals and developers navigate the infosec world.
+author: Redpoint Security
+author_profile: false
 ---
   
  <span style="color:red">*Serving that purpose, our blog points you to a few relevant resources as well as lessons learned from our own experiences working in the field.* </span>
