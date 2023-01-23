@@ -36,6 +36,9 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
+# Google Analytics
+google_analytics: G-2M7SJE0GK0
+
 author:
   name     : "Redpoint Security"
   avatar   : "/assets/images/rdpt-logo.png"
