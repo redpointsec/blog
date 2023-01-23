@@ -2,7 +2,8 @@
 layout: single
 title:  "AppSec Travels: Part 1"
 date:   2023-01-13 16:29:00 -0600
-categories: posts
+categories: posts research vulnerabilities
+tags: appsec edge-case vulnerability research review findings 
 permalink: /AppSec-Travels-1-Function-Overload/
 author: Justin Larson
 author_profile: true

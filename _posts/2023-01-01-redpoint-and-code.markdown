@@ -2,7 +2,8 @@
 layout: single
 title:  "Redpoint and Code"
 date:   2023-01-01 16:29:00 -0600
-categories: posts
+categories: posts redpointsec aboutus
+tags: SDLC DeveloperTraining ThreatModeling AppSec
 permalink: /Redpoint-Code-Security-by-Coders/
 classes: wide
 author: Aaron Law

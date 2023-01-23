@@ -2,7 +2,8 @@
 layout: single
 title:  "Welcome to Redpoint's Blog"
 date:   2023-01-03 14:13:25 -0600
-categories: helloworld launch redpointsec
+categories: helloworld launch redpointsec aboutus
+tags: appsec infosec blog research resources
 header: 
     image: assets/images/helloworld.png
     caption: "Code Security - A beginning, but not _the_ beginning"
@@ -10,7 +11,7 @@ permalink: /Welcome-to-Redpoint-Security's-Blog/
 author: Seth Law
 author_profile: true
 ---
-# Redpoint Security
+# <span style="color:red">Redpoint Security</span>
 
 Welcome to the Redpoint's corner of the internet, a place dedicated to all things security, whether related to application security, assessment activities, code review, web3 security, mobile security, or any other security research that fits.
 

@@ -2,7 +2,8 @@
 layout: single
 title:  "Addressing Ransomware in Organizations and Application Security"
 date:   2021-06-04 13:43:00 -0600
-categories: posts
+categories: posts appsecnews
+tags: organizational security ransomware cyberdefense
 permalink: /application-security-responses-to-ransomware/
 ---
 {% include video id="Pv7twtQxB6Y" provider="youtube" %} 

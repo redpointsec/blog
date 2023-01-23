@@ -2,12 +2,13 @@
 layout: single
 title:  "Training Devs for a new OWASP Top Ten (2021)"
 date:   2023-01-03 13:43:00 -0600
-categories: posts
+categories: posts training OWASP
+tags: appsec DeveloperTraining OWASPTopTen 
 classes: wide
 author: Aaron Law
 author_profile: true
 ---
-# What we learned from adapting our Application Security 101 course
+# <span style="color:red">What we learned from adapting our Application Security 101 course</span>
 
 ![]({{ site.baseurl }}{{ '/assets/images/owasp-top-ten-changes.png' }})
 _Changing the OWASP Top Ten_
@@ -20,6 +21,7 @@ The [OWASP Top Ten](https://owasp.org/Top10/) is a widely-used guide developed b
 The 2021 version of the Top Ten indulges the _au courant_ security zeitgeist, putting a larger emphasis on development decisions in the security pipeline. The best example of this shift is from the addition of the Insecure Design category to the new Top Ten as well as the linguistic change to describe the sensitive data leakage category. Now, [Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/) underlines the fact that devevlopers most likely erred up in how they protected data, whereas the past description, sensitive data exposure, reflected a vulnerability in passive voice, i.e., "data was exposed, who can say why?" In the estimable Professor [Brian Glas's explanation](https://youtu.be/nq-Igdk0o7s?t=717), sensitive data exposure is the result of other failures (categories like Broken Access Control, Broken Authentication, Security Misconfiguration or, the new Cryptographic Failures are all application development mistakes that preceded the data exposures).
 
 ![OWASP Category Relationships]({{ site.baseurl }}{{ '/assets/images/OWASPTopTen-Cat-Relationships.jpg' }})
+
 _Interrelationships and Overlap among OWASP Top Ten Categories_
 
 Updates for the 2021 Top Ten list also reflected more categories of vulnerabilities, and fewer specifics (but we still see you SSRF). Cross-Site Scripting (XSS) got folded into the Injection category, Insecure Deserialization folded into a new, larger Software and Data Integrity Failures category, and XML External Entities (XXE) merged with the Security Misconfiguration category. The updates seemed largely to add some degree of clarity to how we conceptualize application security vulnerabilities as well as how frequently we expect to come across specific security flaws in Redpoint's testing/services work. From a training perspective, the benefit of additional clarity stemming from the changes holds true as well.

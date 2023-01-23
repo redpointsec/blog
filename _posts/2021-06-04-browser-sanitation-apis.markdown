@@ -2,11 +2,11 @@
 layout: single
 title:  "A Client-Side Solve: Browser Sanitization APIs"
 date:   2021-06-04 13:43:00 -0600
-categories: posts
+categories: posts appsecnews xss prevention
+tags: appsec infosec xss prevention cyberdefense client-side
 permalink: /browser-sanitization-apis/
 ---
-
-## Why Browser Sanitization APIs could usher in a new era of client-side security?
+# <span style="color:red">Could Browser Sanitization APIs mean a new era of client-side security?</span>
 
 {% include video id="bUtaE6D2jf0" provider="youtube" %} 
 
