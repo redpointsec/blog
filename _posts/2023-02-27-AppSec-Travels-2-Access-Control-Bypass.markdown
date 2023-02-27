@@ -18,7 +18,7 @@ This is another in Redpoint's blog series AppSec Travels where we walk you throu
 
 ### Overview
 
-This instance of access control failure was discovered during a recent assessment on a commercial off-the-shelf (COTS) dashboard application that served identity functionality for both external clients and internal users. Access restrictions were implemented by a web application firewall (WAF) that limited access to sensitive endpoints (e.g. `/manage`,` /UserSearch`) from IP addresses outside to the company's networks. The application itself did not differentiate between user roles, so any user with an account and access to the application via the corporate network could interact with restricted endpoints
+This instance of access control failure was discovered during a recent assessment on a commercial off-the-shelf (COTS) dashboard application that served identity functionality for both external clients and internal users. Access restrictions were implemented by a web application firewall (WAF) that limited access to sensitive endpoints (e.g. `/manage`,` /UserSearch`) from IP addresses outside of the company's networks. The application itself did not differentiate between user roles, so any user with an account and access to the application via the corporate network could interact with restricted endpoints
 
 ### Vulnerability Details
 
@@ -33,7 +33,7 @@ The HTTP Response header gives indicator that an F5 Big-IP WAF was the technolog
 
 ![HTTP Response]({{ site.baseurl }}{{ '/assets/images/appsec-travels/2/response-header.png' }})
 
-_HTTP Response shows that the response is controlled by BipIP via the Server header_
+_HTTP Response shows that the response is controlled by BigIP via the Server header_
 
 The combination of an application server behind a web application firewall that implements a security control introduced an edge case into our testing methodology where we need to make sure both technologies understand HTTP requests in the same way. One of the methods we used to test this control was to replace sensitive URL characters with their URL-encoded equivalent. Use of these payloads determine if both inline server technologies are interpreting URL-encoded characters properly.
 
@@ -42,7 +42,7 @@ For the above instance, we modify `/UserSearch` to `/%55serSearch` and attempt t
 ![Access Control Bypass]({{ site.baseurl }}{{ '/assets/images/appsec-travels/2/bypass.png' }})
 _Access Control Bypass resulting from URL-encoding characters in the URL path_
 
-Success! The implemented WAF rule only matches it's regular expression against the requested characters in the URL path and does not normalize the URL path before sending the access control redirect. Notice also that the successful bypass response headers indicate that the application server is Apache (as seen in the `Server` header).
+Success! The implemented WAF rule only matches its regular expression against the requested characters in the URL path and does not normalize the URL path before sending the access control redirect. Notice also that the successful bypass response headers indicate that the application server is Apache (as seen in the `Server` header).
 
 To sum up the vulnerability, access control to network-restricted portions of the reviewed application was enforced by web application firewall rules. These rules were implemented using regular expressions based on a list of sensitive paths within the WAF configuration. Bypass was possible due to the a mismatch in the interpretation of the URL path between the WAF and Apache. Apache allowed for URL-encoded characters in the path, whereas the WAF did not take this possibility into account before allowing access.
 
