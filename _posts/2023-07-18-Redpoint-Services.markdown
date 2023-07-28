@@ -1,0 +1,38 @@
+---
+layout: single
+title:  "Redpoint Services"
+date:   2023-06-29 16:23:00 -0600
+categories: posts appsec assessment customer
+tags: appsec assessment pentest secure-code webapp
+permalink: /Redpoint-Services/
+classes: wide
+---
+
+## <span style="color:red">Application Security in 2023: A Look at Redpoint's Service Offerings</span>
+ In the ever-evolving landscape of information security, safeguarding your applications is of paramount importance. There are a range of statistics that can highlight the importance of securing applications against breaches, and we've seen the charts that place the droplet-sized 💧 costs of a Application Security Assessment against the veritable costly deluge of data breaches (according to IBM, average is $4 Million dollars cost to a business that suffers a breach). So it's apparent that the fears of exploit are well known and that very real context doesn't change the fact that many companies think of security as a mostly a cost sink in their business plan. In our time as a security services company though we've come to see an alternative perspective. 
+ 
+ When you've been going at this as long as we have, you come to realize that often companies who seek out our services view us as sort of a marketing partner rather than a simple compliance check. Sales can look at our reports, too, and more than once we've heard how security evaluations make their way into sales pitches, especially when peace of mind is pretty hard to come in the context of securing securing your valuable assets and your customers' data amid rapid technological change.  
+
+At our small application security firm, we're backed by seasoned principal consultants with decades of experience in the information security industry. As a result, we have a range of ways we secure your company's assets and your customers' data against an array of threats, old and new. And our extensive service offerings have catered to significant national financial institutions, international web3 DeFi projects, and retail and eCommerce companies with household names. In this blog post, we want to show you why our clients have trusted us. And we will delve into the diverse range of services we provide because we want you to not only see why Application Security makes sense for your company, but also why Redpoint is uniquely positioned to help.
+
+## <span style="color:red">What we do at Redpoint</span> 
+1. The Application Security Assessment (ASA): Also known across the industry as an Application Penetration Test or Dynamic Application Security Test (DAST), this is one of our most basic services. The Application Security Assessment (ASA) involves a comprehensive, real-time analysis of running applications. Using reliable tools combined and a thorough checklist following a proven methodology base on years of experience, we uncover potential vulnerabilities and deliver actionable remediation advice to enhance your application's security posture.
+
+2. Secure Code Review (SCR): Automated tools can only go so far in detecting complex security issues. Our seasoned security experts conduct meticulous manual secure-code reviews using some automated tools to help focus the review, diving deep into the source code to find intricate vulnerabilities that automated code scans miss. With a keen eye for detail and extensive experience, we tease out the code that has the most important security implications for your application and then scrutinize it for potential risks. Code level remediation advice follows, which provides developers solutions in perhaps their most useful form.
+
+3. Hybrid Application Security Assessment (HASA): The Hybrid Application Security Assessment represents the strategic combination of both the ASA and Secure Code Review services. Linking the strengths of these two approaches, we conduct a thorough evaluation of your application, using Secure-Code Review to find impactful vulnerabilities and edge-case conditions that we can then validate dynamically. Hybrid reviews frequently elicit discoveries that long-term developers themselves are surprised to see spring up in an application review. For our customers who return to us after an Application Security Assessment, we recommend the HASA for its potential to provide a peace of mind that the application domain has truly been probed for outstanding vulnerabilities, and, after mitigation, constitute a level of security above those of their company's industry peers. 
+
+4. Mobile Application Security Assessment (MASA): Redpoint has been an industry leader in the mobile application security space since its inception. Our company founder spoke at BlackHat on the topic and has taught some of the most well received trainings on Swift and iOS security in the past 15 years (with a particularly widely distributed training deck). The methodology and checklist developed for iOS and Android reviews has proven to successfully improve security controls for mobile applications for clients developing finance, eCommerce, retail and lifestyle applications.
+
+5. DevSecOps Consulting: We understand that securing your applications is not limited to just one phase of development. Our DevSecOps Consulting service revolves around integrating security into every step of the Software Development Lifecycle (SDLC). Key offerings within this service include:
+•	Developer Training: Our range of trainings empower your development team with the expertise to find bugs in their applications, write secure code from the outset, and foster a proactive security mindset.
+•	Security Champion Programs: We assist in the establishment of Security Champion Programs (often after identifying key members of your team with an interest and talent for security during developer trainings), where designated team members advocate for security awareness and best practices within your organization.
+•	Threat Modeling and Tabletop Exercises: We collaborate with your team to perform threat modeling and tabletop exercises, identifying potential risks early on and strengthening incident response capabilities.
+
+6. Smart Contract Secure Code Reviews for Web3 Clients: For Web3 clientele, we specialize in Smart Contract Secure Code Reviews. In the blockchain and decentralized finance (DeFi) world, securing smart contracts is critical precisely because the assets that are being protected are highly lucrative. Our team at Redpoint has worked to extend our code expertise into the emerging cryptocurrency and blockchain economy, so that we can ensure that your applications resist attacks and operate securely within the decentralized ecosystem.
+
+As a leading application security firm, we take immense pride in our vast experience and commitment to providing top-notch security solutions. From our Application Security Assessment (ASA) and Hybrid Application Security Assessment (HASA) to our DevSecOps Consulting and Smart Contract Secure Code Reviews, our services are tailored to suit a range of security needs for companies large and small. You can entrust your application security to our team of experienced professionals and gain the confidence to navigate the fast-changing cybersecurity landscape.
+For any inquiries or to learn more about our services,  contact us at info@redpointsecurity.com. Also, feel free to look through the sample Application Review report below to get an idea of our engagement deliverables. 
+We eagerly anticipate the opportunity to collaborate with you, securing your digital infrastructure and safeguarding your organization's assets and customer data.
+
+<object data="{{ site.baseurl }}{{ '/assets/documents/RPS-Sample-Report-2023.pdf' }}" width="1000" height="1000" type='application/pdf'>
